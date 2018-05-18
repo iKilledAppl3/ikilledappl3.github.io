@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+body {
+background-image: url("rickrolled.gif");
+color: rgb(240, 240, 240);
+text-align: center
+
+}
+
+.copyright {
+
+font-family: sans-serif;
+text-align:center;
+
+	
+}
+
+a.button {
+	 position: relative;
+  font-family: 'Permanent Marker', cursive;
+  font-variant:small-caps;
+  font-size: 60px;
+  -webkit-transform: skew(-15deg,-15deg);
+  padding-left: 80px;
+  background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+}
+
+.button:before {
+  content: '-';
+  position: absolute;
+  bottom: -98px;
+  left: 254px;
+  background-image: -webkit-linear-gradient(#F3C8F3 0%, #F3C8F3 100%);
+  -webkit-background-clip: text;
+  text-shadow: 70px -7px #F3C8F3;
+}
+
+.button:after {
+  content: '-';
+  position: absolute;
+  bottom: -85px;
+  left: 395px;
+  background-image: -webkit-linear-gradient(#F3C8F3 0%, #F3C8F3 100%);
+  -webkit-background-clip: text;
+  text-shadow: 70px -5px #F3C8F3;
+}
+
+.button-d {
+  position: relative;
+  background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+  -webkit-background-clip: text;
+  padding-right: 18px;
+  margin-right: -18px;
+}
+
+.button-d:before {
+  content: '-';
+  position: absolute;
+  top: -71px;
+  left: -71px;
+  background-image: -webkit-linear-gradient(#FF0FF8 0%,  #FC96FC 100%);
+  -webkit-background-clip: text;
+}
+
+.button-d:after {
+  content: '-';
+  position: absolute;
+  top: -72px;
+  left: 103px;
+  background-image: -webkit-linear-gradient(#FF0FF8 0%,  #FC96FC 100%);
+  -webkit-background-clip: text;
+}
+
+
+.nevergonnagifyouup {
+	 position: relative;
+  font-family: 'Permanent Marker', cursive;
+  font-variant:small-caps;
+  font-size: 60px;
+  -webkit-transform: skew(-15deg,-15deg);
+  padding-left: 80px;
+  background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+}
+
+.nevergonnagifyouup-n {
+  position: relative;
+  background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+  -webkit-background-clip: text;
+  padding-right: 18px;
+  margin-right: -18px;
+}
+

@@ -1,0 +1,87 @@
+<html>
+<head>
+	<title>Meteora</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+<base target="_blank"/> 
+
+<script type="text/javascript" src="./assets/menes.js"></script>
+<link rel="stylesheet" type="text/css" id="stylesheet">
+<script type="text/javascript">var agent=navigator.userAgent;var ios=agent.match(/.*; CPU (?:iPhone )?OS ([0-10_]*) like Mac OS X[;)]/);ios=ios==null?'7.0':ios[1].replace(/_/g,'.');var stylesheet=$("#stylesheet");if(ios.match(/^[10]($|\.)/)!=null){stylesheet.href("./assets/lotus.css")}else{stylesheet.href("./assets/lotus.css")}</script>
+
+</head>
+
+	<script type="text/javascript">
+		if (navigator.userAgent.search(/Cydia/) != -1)
+			document.write('<style type="text/css"> body { background: none !important; } .header { display: none !important; } </style>');
+	</script>
+
+<body class="pinstripe">
+<panel>
+
+<fieldset class="iosver">
+    <div data-min-ios="10.0" data-max-ios="10.2" class="prerequisite"><p>Compatible with iOS 10 - 10.2</p></div>
+	<div class="prerequisite"><p>Currently in BETA!</p></div>
+</fieldset>
+
+
+<label>Description</label>
+<fieldset>
+<div>
+	<p>Bring back the iOS 7 - 9 Lockscreen to iOS 10!</p>
+	<p>This tweak is named after the Meteora album by Linkin Park!</p>
+	<p>In honor of Chester Bennington R.I.P.</p>
+</p><em>&quot;Every step that I take is another mistake to you&quot;</em><br> - Numb (Linkin Park)<p>
+</div>
+<a href="screenshots.html">
+<div><div><label><p>Screenshot(s)</p></label></div></div>
+</a>
+
+</fieldset>
+
+<label>In this version:</label>
+<fieldset>
+
+    <a><div><div><label><p>Initial Release</p></label></div></div></a>
+
+<a href="changelog.html">
+<div><div><label><p>Previous changes</p></label></div></div>
+</a>
+</fieldset>
+<label>Why doesn't certain things work?</label>
+<fieldset>
+<div>
+	<p>Simple the methods I use are from iOS 9.<p>
+		<p>iOS 10's lockscreen mechanism is a bit weird it uses the dashboard as the main lockscreen view but still uses some old iOS 9 lockscreen components by subclassing them</p>
+	<p>You can basically get the old lockscreen back by disabling the dashboard but by doing so MESA (Touch ID) authentication fails and gets revoked on the "old" lockscreen (thanks to Stricktron for figuring this out)</p>
+	<p>Also Lockscreen notifications don't work at all due to how Apple handles them <br> However, you can still get notifications from the lockscreen by swiping down for the Notification Center.</p>
+	<p>Basically Apple just plain screwed up the way the old lockscreen works<p>
+	<div>
+		<a><div><div><label><p></p><a href="https://github.com/iKilledAppl3/Meteora/blob/master/README.md"></p>Find out more on GitHub</p></label></div></div></a>
+ </fieldset>
+</div>
+</fieldset>
+
+<label>Do iOS 10 lockscreen tweaks work with Meteora?</label>
+<fieldset>
+<div>
+	<p>No, sorry :/<p>
+		<p>As stated before I disable the "new" lockscreen which is called the dashboard by Apple.</p>
+		<p>I do this to make it feel like stock iOS instead of laying a view on top of the new lockscreen.</p>
+		<p>Developers will have to work with me to get it working that's why it's open-sourced!<p>
+	            <p> Most of your iOS 9 locksreeen tweaks work with Meteora though since I use iOS 9 methods</p>
+	<div>
+ </fieldset>
+</div>
+</fieldset>
+
+<label>Misc Stuff:</label>
+<fieldset>
+
+     <a><div><div><label><p></p><a href="https://www.twitter.com/iKilledAppl3"></p>Developer Twitter</p></label></div></div></a>
+    <a><div><div><label><p></p><a href="https://github.com/iKilledAppl3/Meteora"></p>View Source Code on GitHub</p></label></div></div></a>
+ <a><div><div><label><p></p><a href="http://is.gd/donate2ToxicAppl3Inc"></p>Donate via PayPal</p></label></div></div></a>
+</fieldset>
+<script src="/assets/iosver.js" async></script>
+
+</body>
+</html>

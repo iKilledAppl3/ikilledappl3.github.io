@@ -1,0 +1,98 @@
+/* locally overwriting 
+   global CSS from Saurik */
+   
+iframe {
+  display: block;
+}
+
+/* remove stripes sshot page*/
+  body.no-pinstripe {
+  background: transparent;
+}
+
+  panel > img {
+  display: block;
+  margin: 15px auto 15px auto;
+  height: auto;
+  width: 290px;
+}
+
+  panel > block > p,
+  fieldset > div > p {
+  text-align: left;
+}
+
+  body.pinstripe {
+  background: transparent;
+}
+
+/* Chevrons {{{ */
+  fieldset > a[href]:not([type="ad"]),
+  fieldset > div > select,
+  fieldset > div > div > select {
+  background-repeat: no-repeat;
+  background-image: url(http://macciti.com/cydia/sc/images/chevron.png);
+}
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2) {
+  fieldset > a[href]:not([type="ad"]),
+  fieldset > div > select,
+  fieldset > div > div > select {
+  background-image: url(http://macciti.com/cydia/sc/images/chevron@2x.png);
+  background-size: 10px 13px;
+}}
+
+  panel > iframe {
+  margin: -8px 0; /* Margin between the Iframe and the depiction. */
+}
+
+  panel > iframe:first-child,
+  panel > iframe + iframe {
+  margin-top: 0;
+}
+
+/* end locally overwriting 
+   global CSS from Saurik */
+
+/* ad */
+#content
+{
+  width:320px;
+  position:relative;
+  margin:0 auto;
+  margin-top:20px; /* was 13px */
+  margin-bottom:0px;
+  height:auto;
+}
+
+ul.adbox
+{
+  -webkit-border-bottom-left-radius:8px 8px;
+  -webkit-border-bottom-right-radius:8px 8px;
+  -webkit-border-top-left-radius:8px 8px;
+  -webkit-border-top-right-radius:8px 8px;
+  background-color:#fff;
+  border:#878787 solid 1px;
+  overflow:hidden;
+  list-style:none;
+  padding:0;
+  position:relative;
+  display:block;
+  height:auto;
+  margin-left:9px;
+  margin-right:9px;
+  margin-top:-4px;
+  margin-bottom:0px;
+}
+
+.ad
+{
+  position:relative;
+  width:auto;
+  height:auto;
+  margin-left:-10px;
+  margin-right:-10px;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+/* end ad */
