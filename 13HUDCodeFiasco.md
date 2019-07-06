@@ -19,10 +19,10 @@ devastated me. Anyways, then I saw another "developer's" tweak called
 "VolHUD" that was also being worked on because someone tagged me in it
 saying it was a copy of \#Rishima but come to find out after I leave
 Twitter for like two or so weeks it was "stolen" from 13HUD. Now, I
-don't agree that someone copied the code word for word and then claimed
+don't agree with someone who copies code word for word and then claims
 to code it but, if anyone wants to be technincal I created \#Rishima
 first BEFORE any of these tweaks were announced. And if you want to be
-even more technical we all are just calling on "Apple's on methods".
+even more technical we all are just calling on "Apple's own methods".
 Look I have no beef with either dev. But, this is the reason why I left
 Twitter, people are just too toxic on the platform anymore. I also have
 decided to remove all volume hud code that I wrote for Rishima and make
