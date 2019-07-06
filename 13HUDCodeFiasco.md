@@ -1,4 +1,4 @@
-My thoughts on the 13HUD "code stealing" fiasco.
+# My thoughts on the 13HUD "code stealing" fiasco.
 
 When I first saw 13HUD being made by @Muirey03 I thought it was pretty
 neat. I started working on \#Rishima on June 3, 2019 Sometime in the
@@ -29,5 +29,5 @@ decided to remove all volume hud code that I wrote for Rishima and make
 Rishima just the Ringer HUD UI tweak as It will now work with 13HUD, I
 think @Muirey03 and I are gonna merge our tweaks, I haven't decided yet
 or not. If that does happen the aformentioned statement about \#Rishima
-will become true. Anyways have a great day, J.K. Hayslip (iKilledAppl3)
-out
+will become true. 
+# Anyways have a great day, J.K. Hayslip (iKilledAppl3) out
