@@ -1,0 +1,60 @@
+div.gallery {
+  margin: 5px;
+  border: 10px solid #00000;
+  border-radius: 10px;
+  float: left;
+  width: 450px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custombutton {
+  background-color: #000000;
+  border: none;
+  border-radius: 300px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.custombutton:hover {
+  border: 3px solid #000000;
+}
+
+div.customcontainer {
+  padding: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.showmeplz {display:block;}
