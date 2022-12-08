@@ -366,3 +366,20 @@ Description: Listen to the sounds of the Ocarina of Time as you brows, venture a
 Author: JoshTV
 Depiction: https://ikilledappl3.github.io/tvrepo/depictions/ZeldaTV/ZeldaTV.json
 Name: ZeldaTV
+
+Package: com.ikilledappl3.uptimemodule
+Version: 1.0-1
+Architecture: appletvos-arm64
+Maintainer: iKilledAppl3 <ipodnewbee234@icloud.com>
+Installed-Size: 76
+Depends: mobilesubstrate, com.nito.tvcontrolcenter (>=1.1), firmware (>= 13.0)
+Filename: ./com.ikilledappl3.uptimemodule_1.0-1_appletvos-arm64.deb
+Size: 8758
+MD5sum: c84175213be24621149a36d9838fea31
+SHA1: 5698dd93812216f6f8d5ec11b5795492f9780ea9
+SHA256: 0dd7b57fae605f4199c7a3f8064d0870df2d1b83479dd35e322aa26dfa4fb7a8
+Section: Tweaks
+Description: Shows your system uptime in the control center.
+Author: iKilledAppl3 <ipodnewbee234@icloud.com>
+Depiction: https://ikilledappl3.github.io/tvrepo/depictions/UptimeTV/UptimeTV.json
+Name: UptimeTV
